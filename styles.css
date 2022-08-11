@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #5100ffdb;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+body{
+  background-color: #6a00ff6a;
+}
+
+/* CONTAINER CLASSES*/
+
+.container{
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+.img__container img{
+  margin: 8px 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  height: 100px;
+  width: 100px;
+  
+}
+
+.img__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container{
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  background-color: #fdfdfd;
+}
+
+.name__container{
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.name__location {
+  
+  display: flex;
+  text-align: center;
+  margin: 8px auto;
+  justify-content: center;
+}
+
+
+.container__instagram{
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 210px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: 1px solid; 
+  margin: 0 auto;
+}
+
+.container__social-title{
+  margin-right: 5px;
+}
+
+
+.cp{
+  margin-left: 5px;
+}
+
+
+.container__linked-in{
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 210px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.container__github{
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 210px;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.container-spacing{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skills__title{
+  display: flex;
+  justify-content: center;  
+  margin: 8px 0;
+}
+
+.skills__list{
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 24px;
+  margin-bottom: 8px;
+  background-color: #5100ffdb;
+  color: white;
+  padding: 0 8px;
+}
+
+.skills__lists{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
